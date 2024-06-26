@@ -41,4 +41,6 @@ body {
   position: absolute;
   top: 50%;
   transform-origin: 100%;
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.31, -0.47, 0.44, 1.55);
 }
